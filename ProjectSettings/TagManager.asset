@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Spawnpoint Player
+  - Spawnpoint Ammo
+  - Actor
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Render Screen
+  - Ground
+  - Actor Move
+  - Actor Hit Body
+  - Actor Hit Head
+  - Player 1 Visual
+  - Projectile
+  - ProjectilePickup
+  - ProjectileNew
+  - Player 2 Visual
+  - Player 3 Visual
+  - Player 4 Visual
+  - Player 5 Visual
+  - Player 6 Visual
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

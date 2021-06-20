@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/_Scenes/LoadingStart.unity
+    guid: c60d5acbed9efb94980ee03047e0b630
+  - enabled: 1
+    path: Assets/_Scenes/MainMenu.unity
+    guid: 46aee5768ca125744bef9909a5f044d6
+  - enabled: 1
+    path: Assets/_Scenes/ProtoMain.unity
+    guid: a53441f82d5593640a154ac67c0ad17a
+  - enabled: 1
+    path: Assets/_Scenes/ChoosePlayer.unity
+    guid: 33f956d43b668e14cb3d77f892efabe1
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/_Scenes/Level.unity
+    guid: 30b0ac6de0a73e1409ab5a233a5b792c
+  - enabled: 1
+    path: Assets/_Scenes/End Screens/EndScreen1.unity
+    guid: 6884e14b39a0dce4cbaaafc251a5cc41
+  - enabled: 1
+    path: Assets/_Scenes/End Screens/EndScreen6.unity
+    guid: 907b7123776a60c408c4b58bbbfa957a
+  - enabled: 1
+    path: Assets/_Scenes/End Screens/EndScreen5.unity
+    guid: 2279c5921ad679f418fb3636430fb791
+  - enabled: 1
+    path: Assets/_Scenes/End Screens/EndScreen4.unity
+    guid: 3dba7b99827bcd94fa51ec9d434308f4
+  - enabled: 1
+    path: Assets/_Scenes/End Screens/EndScreen3.unity
+    guid: 2cd729147c4f97249a041a6390e73240
+  - enabled: 1
+    path: Assets/_Scenes/End Screens/EndScreen2.unity
+    guid: 9286eb341cc7f12438243ed821233e50

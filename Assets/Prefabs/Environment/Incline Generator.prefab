@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1988890679101202}
+  m_IsPrefabParent: 1
+--- !u!1 &1988890679101202
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4597763996034286}
+  - component: {fileID: 114067885149300776}
+  m_Layer: 0
+  m_Name: Incline Generator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4597763996034286
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1988890679101202}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.34, y: -0.0000021606684, z: -3.191907}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114067885149300776
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1988890679101202}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58f35a5c91d67244c92b6f7bd04d3b91, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deletePrevious: 1
+  size: {x: 2, y: 3, z: 4}
+  stairsSettings:
+    stepsCount: 20
+    widthMargin: 0.1
+    depthOffset: 0.07
+  escalatorSettings:
+    stepsCount: 20
+    widthMargin: 0.15
+    heightPadding: 0.21
+    depthOffset: 0.07
+    heightOffset: -0.26
+    endExpandLength: 1
+  dependancies:
+    prefabRamp: {fileID: 1916956134712438, guid: 29b1e99ba5b353f4d85747fb77ee5bf3,
+      type: 2}
+    prefabStairs: {fileID: 1193385444846488, guid: 2c81ba44af9fe6148808e7f5c1fce7b1,
+      type: 2}
+    prefabEscalator: {fileID: 1549787926283394, guid: 24de10bb8a047d243a5541ea42d791b6,
+      type: 2}
+  gizmoSettings:
+    showWhenNotSelected: 1
+    gizmoColorLines: {r: 0.016381936, g: 0.74264705, b: 0.38201883, a: 1}
+    gizmoColorRamp: {r: 0.88235295, g: 0, b: 0.8215011, a: 0.378}
